@@ -17,8 +17,8 @@
                   width=414;
                 }
                 docEl.dataset.width = width
-                docEl.dataset.percent = 100 * (width / 375);
-                docEl.style.fontSize = 100 * (width / 375) + 'px';
+                docEl.dataset.percent = 100 * (width / 750);
+                docEl.style.fontSize = 100 * (width / 750) + 'px';
             };
             recalc();
             if (!doc.addEventListener) return;
@@ -26,8 +26,68 @@
             
         })(document, window);
     </script>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 <body>
-
+    <header>
+        <a href="#">
+            <img src="./image/logo@2x.png">
+        </a>
+        <img class="titile_1" src="./image/titile_1@2x.png">
+        <img class="titile_2" src="./image/titile_2@2x.png">
+    </header>
+    <ul>
+        <li>
+            <a href="./detail1.html">
+                <div class="frame">
+                    <strong>2018-2022年</strong>
+                    <b>中国工业机器人行业调研报告</b>
+                    <p>高工产研机器人研究所(GGII)</p>
+                    <img src="./image/btn@2x.png">
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="./detail2.html">
+                <div class="frame">
+                    <strong>2018第二季度</strong>
+                    <b>中国锂电池行业报告分析报告</b>
+                    <p>高工产研锂电研究所(GGII)</p>
+                    <img src="./image/btn@2x.png">
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="./detail3.html">
+                <div class="frame">
+                    <strong>2018-2020年</strong>
+                    <b>中国并联机器人（DLETA）市场调研报告</b>
+                    <p>高工产研机器人研究所(GGII)</p>
+                    <img src="./image/btn@2x.png">
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="./detail4.html">
+                <div class="frame">
+                    <strong>2018    年</strong>
+                    <b>中国新能源汽车产业链调研报告</b>
+                    <p>深圳市高工产业研究院</p>
+                    <img src="./image/btn@2x.png">
+                </div>
+            </a>
+        </li>
+    </ul>
+    <section>
+        <h2>简单三步  助力招商</h2>
+        <img class="step" src="./image/steps@2x.png">
+        <ol class="clear">
+            <li>扫码关注公众号</br>点击招商助手</li>
+            <li>初始账号OA邮箱</br>初始密码123456</li>
+            <li>根据需要</br>选择模块使用</li>
+        </ol>
+        <img class="qr" src="./image/QR_code@2x.png">
+    </section>
 </body>
 </html>
